@@ -15157,7 +15157,7 @@ if(r==null)r=14
 s=A.cG(a,B.c9)
 s=s==null?null:s.gd5()
 if(s==null)s=B.at
-return A.asS(B.me,B.Dm,B.Dj,r*s.a/14)},
+return A.asS(B.me,B.Dm,B.Di,r*s.a/14)},
 Nc:function Nc(a,b,c,d,e,f,g,h,i,j,k,l){var _=this
 _.c=a
 _.d=b
@@ -51355,7 +51355,7 @@ F(){return"_CardVariant."+this.b}}
 A.GT.prototype={
 M(a){var s,r,q,p,o,n,m,l,k=null,j=A.a2(a).y2
 A.a2(a)
-switch(0){case 0:s=new A.aeO(a,B.v,k,k,k,1,B.Dk,k)
+switch(0){case 0:s=new A.aeO(a,B.v,k,k,k,1,B.Dj,k)
 break}r=j.f
 if(r==null){r=s.f
 r.toString}q=j.b
@@ -83522,7 +83522,7 @@ A.a60.prototype={
 I4(a,b){A.Xs(!0,new A.a62(b),a,t.z)}}
 A.a62.prototype={
 $1(a){var s=null
-return A.hm(B.T,A.hm(s,new A.Ad(new A.a61(a,this.a),s),B.v,s,s,new A.e2(B.j,s,s,A.k_(10),s,s,B.aP),400,B.iq,B.Di,600),B.v,s,s,s,s,s,s,s)},
+return A.hm(B.T,A.hm(s,new A.Ad(new A.a61(a,this.a),s),B.v,s,s,new A.e2(B.j,s,s,A.k_(10),s,s,B.aP),400,B.iq,B.Dh,600),B.v,s,s,s,s,s,s,s)},
 $S:512}
 A.a61.prototype={
 $1(a){A.h0(this.a,!1).kM(null)
@@ -83845,7 +83845,7 @@ M(a){return B.It}}
 A.oq.prototype={
 ah(){return new A.QH(new A.a84(),B.l)}}
 A.QH.prototype={
-M(a){var s=this,r=null,q="Bold",p=t.p,o=A.asU(A.hO(A.hk(A.b([A.hm(r,A.aun("assets/images/logos.png",200),B.v,r,r,r,r,r,B.Dq,r),B.d5,new A.cd(B.Dh,A.d2(B.k,q,16,"Administrator"),r),B.Ms,s.B0("Records",s.d,new A.agJ(s)),B.d5,s.B0("Items",s.e,new A.agK(s)),B.d5,s.B0("QR Code",!1,new A.agL(s,a)),B.d5,A.auI(new A.agM(a),r,A.d2(B.aF,q,18,"Logout"))],p),B.bU,B.fq,B.aR),1/0,300),r),n=A.A8(A.b([B.Mq,new A.iV(B.kU,r,r,A.d2(B.b_,q,14,A.aE8("MMMM dd, yyyy | hh:mm a",r).tc(new A.cA(Date.now(),!1))),r)],p),B.b0,B.tc,B.aR,r)
+M(a){var s=this,r=null,q="Bold",p=t.p,o=A.asU(A.hO(A.hk(A.b([A.hm(r,A.aun("assets/images/logos.png",200),B.v,r,r,r,r,r,B.Dq,r),B.d5,new A.cd(B.Dk,A.d2(B.k,q,16,"Administrator"),r),B.Ms,s.B0("Logs",s.d,new A.agJ(s)),B.d5,s.B0("Items",s.e,new A.agK(s)),B.d5,s.B0("QR Code",!1,new A.agL(s,a)),B.d5,A.auI(new A.agM(a),r,A.d2(B.aF,q,18,"Logout"))],p),B.bU,B.fq,B.aR),1/0,300),r),n=A.A8(A.b([B.Mq,new A.iV(B.kU,r,r,A.d2(B.b_,q,14,A.aE8("MMMM dd, yyyy | hh:mm a",r).tc(new A.cA(Date.now(),!1))),r)],p),B.b0,B.tc,B.aR,r)
 return A.apR(new A.cd(B.iq,A.A8(A.b([o,A.atZ(A.hk(A.b([n,B.d5,A.atZ(s.d?B.KG:B.Eq)],p),B.bU,B.aw,B.aR))],p),B.b0,B.aw,B.aR,r),r))},
 B0(a,b,c){var s=b?B.b_:B.C
 return A.auI(c,s,A.d2(b?B.j:B.aF,"Bold",18,a))},
@@ -87463,12 +87463,12 @@ B.iq=new A.ay(20,20,20,20)
 B.mg=new A.ay(20,50,0,0)
 B.mh=new A.ay(24,0,24,0)
 B.Dg=new A.ay(24,0,24,24)
-B.Dh=new A.ay(25,0,25,0)
-B.Di=new A.ay(2,2,2,2)
+B.Dh=new A.ay(2,2,2,2)
 B.mi=new A.ay(40,24,40,24)
-B.Dj=new A.ay(4,0,4,0)
-B.Dk=new A.ay(4,4,4,4)
+B.Di=new A.ay(4,0,4,0)
+B.Dj=new A.ay(4,4,4,4)
 B.Uo=new A.ay(4,4,4,5)
+B.Dk=new A.ay(55,0,55,0)
 B.Dl=new A.ay(6,6,6,6)
 B.Dm=new A.ay(8,0,8,0)
 B.Dn=new A.ay(8,2,8,5)
