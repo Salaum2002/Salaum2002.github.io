@@ -85195,7 +85195,7 @@ A.ahN.prototype={
 $0(){var s=this.b,r=this.c,q=B.b.gR(s.gfG()[r].b.b.a),p=s.gfG()[r]
 p=A.jK(p.b.cP(0,"name"),p.a)
 r=s.gfG()[r]
-this.a.Wv(q,p,A.jK(r.b.cP(0,"required_points"),r.a))},
+this.a.Wv(q,p,A.jK(r.b.cP(0,"points"),r.a))},
 $S:0}
 A.ahO.prototype={
 $0(){var s=0,r=A.J(t.H),q=1,p,o=this,n,m,l,k
@@ -85236,20 +85236,39 @@ A.rk.prototype={
 M(a){var s=null
 return A.ap_(s,s,A.hc(new A.cb(B.fh,A.fT(A.b([A.Bt(B.aO,this.c,!1,"Item Name:",!1),B.ch,A.Bt(B.aO,this.d,!1,"Required Points:",!1),B.ch,A.Z_(B.m9,45,"Update",new A.a0v(this,a),10,150),B.ch],t.p),B.aZ,B.ar,B.bS),s),s,400),B.x,s,s,s,s,s)}}
 A.a0v.prototype={
-$0(){var s,r,q,p,o=this.a,n=o.c
-if(n.a.a.length===0||o.d.a.a.length===0){A.ir(B.bU,"Please fill all fields.",B.bE)
-return}try{s=A.hp(o.d.a.a,null)
-r=$.c9
-q=(r==null?$.c9=$.eG():r).fh("[DEFAULT]")
-A.ci(q,$.e8(),!0)
-r=A.rs(new A.di(q))
-o=A.v7(r,r.gmx().j2("Items")).h9(o.e)
-n=A.awU(A.aC(["name",n.a.a,"required_points",s],t.K,t.X))
-n.toString
-o.a.aU(0,n)
-A.ir(B.bU,"Item updated successfully!",B.bE)
-A.fq(this.b,!1).jZ(null)}catch(p){A.ir(B.bU,"Please enter valid points.",B.bE)}},
-$S:0}
+$0(){var s=0,r=A.J(t.H),q,p=2,o,n=this,m,l,k,j,i,h,g
+var $async$$0=A.K(function(a,b){if(a===1){o=b
+s=p}while(true)switch(s){case 0:i=n.a
+h=i.c
+if(h.a.a.length===0||i.d.a.a.length===0){A.ir(B.bU,"Please fill all fields.",B.bE)
+s=1
+break}p=4
+m=A.hp(i.d.a.a,null)
+l=$.c9
+k=(l==null?$.c9=$.eG():l).fh("[DEFAULT]")
+A.ci(k,$.e8(),!0)
+l=A.rs(new A.di(k))
+i=A.v7(l,l.gmx().j2("Items")).h9(i.e)
+h=A.awU(A.aC(["name",h.a.a,"points",m],t.K,t.X))
+h.toString
+s=7
+return A.Q(i.a.aU(0,h),$async$$0)
+case 7:A.ir(B.bU,"Item updated successfully!",B.bE)
+A.fq(n.b,!1).jZ(null)
+p=2
+s=6
+break
+case 4:p=3
+g=o
+A.ir(B.bU,"Please enter valid points.",B.bE)
+s=6
+break
+case 3:s=2
+break
+case 6:case 1:return A.H(q,r)
+case 2:return A.G(o,r)}})
+return A.I($async$$0,r)},
+$S:6}
 A.LJ.prototype={
 M(a){var s=$.c9,r=(s==null?$.c9=$.eG():s).fh("[DEFAULT]")
 A.ci(r,$.e8(),!0)
