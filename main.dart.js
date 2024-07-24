@@ -85148,7 +85148,7 @@ if(b.c!=null)return B.lW
 if(b.a===B.iL)return B.u0
 s=b.gUt()
 r=A.aqn()
-q=A.b([A.ii(A.cY(B.k,d,18,"Item Number")),A.ii(A.cY(B.k,d,18,"Money")),A.ii(A.cY(B.k,d,18,"Required Points")),A.ii(A.cY(B.k,d,18,"Quantity")),A.ii(A.cY(B.k,d,18,"Actions"))],t.UR)
+q=A.b([A.ii(A.cY(B.k,d,18,"Item Number")),A.ii(A.cY(B.k,d,18,"Money")),A.ii(A.cY(B.k,d,18,"Equivalent Points")),A.ii(A.cY(B.k,d,18,"Quantity")),A.ii(A.cY(B.k,d,18,"Actions"))],t.UR)
 p=A.b([],t.yy)
 for(o=this.a,n=t.p,m=t.sa,l=0;l<s.gfF().length;l=i){k=new A.ahL(l)
 j=J.fP(k.$1(B.hy))
@@ -85223,7 +85223,7 @@ return A.I($async$$0,r)},
 $S:6}
 A.qD.prototype={
 M(a){var s=null
-return A.ap_(s,s,A.hc(new A.cb(B.fh,A.fT(A.b([A.Bt(B.aO,this.c,!1,"Money:",!1),B.ch,A.Bt(B.aO,this.d,!1,"Required Points:",!1),B.ch,A.Z_(B.iz,45,"Add",new A.Y5(this,a),10,150),B.ch],t.p),B.aZ,B.ar,B.bS),s),s,400),B.x,s,s,s,s,s)}}
+return A.ap_(s,s,A.hc(new A.cb(B.fh,A.fT(A.b([A.Bt(B.aO,this.c,!1,"Money:",!1),B.ch,A.Bt(B.aO,this.d,!1,"Equivalent Points:",!1),B.ch,A.Z_(B.iz,45,"Add",new A.Y5(this,a),10,150),B.ch],t.p),B.aZ,B.ar,B.bS),s),s,400),B.x,s,s,s,s,s)}}
 A.Y5.prototype={
 $0(){var s,r,q=this.a,p=q.c
 if(p.a.a.length===0||q.d.a.a.length===0){A.ir(B.bU,"Please fill all fields.",B.bE)
@@ -85234,7 +85234,7 @@ A.fq(this.b,!1).jZ(null)}catch(r){A.ir(B.bU,"Please enter valid points.",B.bE)}}
 $S:0}
 A.rk.prototype={
 M(a){var s=null
-return A.ap_(s,s,A.hc(new A.cb(B.fh,A.fT(A.b([A.Bt(B.aO,this.c,!1,"Money:",!1),B.ch,A.Bt(B.aO,this.d,!1,"Required Points:",!1),B.ch,A.Z_(B.iz,45,"Update",new A.a0v(this,a),10,150),B.ch],t.p),B.aZ,B.ar,B.bS),s),s,400),B.x,s,s,s,s,s)}}
+return A.ap_(s,s,A.hc(new A.cb(B.fh,A.fT(A.b([A.Bt(B.aO,this.c,!1,"Money:",!1),B.ch,A.Bt(B.aO,this.d,!1,"Equivalent Points:",!1),B.ch,A.Z_(B.iz,45,"Update",new A.a0v(this,a),10,150),B.ch],t.p),B.aZ,B.ar,B.bS),s),s,400),B.x,s,s,s,s,s)}}
 A.a0v.prototype={
 $0(){var s=0,r=A.J(t.H),q,p=2,o,n=this,m,l,k,j,i,h,g
 var $async$$0=A.K(function(a,b){if(a===1){o=b
