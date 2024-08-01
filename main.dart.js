@@ -85265,7 +85265,7 @@ l=(self.URL||self.webkitURL).createObjectURL(A.aDr([B.c5.fg("                  U
 l.toString
 m=document.createElement("a")
 m.href=l
-m.setAttribute("download","receipt.txt")
+m.setAttribute("download","receipt.pdf")
 m.click();(self.URL||self.webkitURL).revokeObjectURL(l)
 A.eX(q.b,!1).jm(null)
 return A.H(null,r)}})
