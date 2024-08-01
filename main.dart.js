@@ -84825,7 +84825,7 @@ l(){var s=this.d
 if(s!=null)s.a.aL(0)
 this.aQ()},
 M(a){var s=null
-return A.f9(A.b([new A.rx(1,B.nh,new A.Hp(A.k9(10),this.a0W(a),s),s),new A.Iz(new A.akq(a),s,s,s,s,s,s,!1,s,!0,B.Sx,s)],t.p),B.aU,B.ai,B.bS)},
+return A.f9(A.b([new A.rx(1,B.nh,new A.Hp(A.k9(10),this.a0W(a),s),s),new A.Iz(new A.akq(a),s,s,s,s,s,s,!1,s,!0,B.Sw,s)],t.p),B.aU,B.ai,B.bS)},
 a0W(a){var s=t.w
 return new A.zO(new A.ako(this),A.avY(B.k,30,10,10,Math.min(Math.min(A.bW(a,null,s).w.a.a,A.bW(a,null,s).w.a.b),550)-140,B.C_),this.e)},
 a8x(a){var s
@@ -85214,7 +85214,7 @@ $0(){A.Gc(!0,new A.ah9(),this.a,t.z)},
 $S:0}
 A.ah9.prototype={
 $1(a){var s=null
-return A.aoS(A.b([A.yS(B.zk,s,s,s,new A.ah5(a),s),A.yS(B.Sr,s,s,s,new A.ah6(a),s)],t.p),B.Sy,B.Sw)},
+return A.aoS(A.b([A.yS(B.zk,s,s,s,new A.ah5(a),s),A.yS(B.Sr,s,s,s,new A.ah6(a),s)],t.p),B.Sy,B.Sv)},
 $S:96}
 A.ah5.prototype={
 $0(){return A.eX(this.a,!1).jm(!0)},
@@ -85240,7 +85240,7 @@ q=A.atG().oT("jm")
 p=l.h(0,"dateTime")
 o=t.p
 p=A.f9(A.b([k,s,r,A.cT(B.k,m,18,"Date and Time: "+q.pD(A.ap7(t.y4.a(p).gGM())))],o),B.c7,B.ai,B.bS)
-return A.aoS(A.b([A.yS(B.zk,n,n,n,new A.ahh(a),n),A.yS(B.Su,n,n,n,new A.ahi(l,a),n)],o),new A.c6(B.fj,p,n),n)},
+return A.aoS(A.b([A.yS(B.zk,n,n,n,new A.ahh(a),n),A.yS(B.Sx,n,n,n,new A.ahi(l,a),n)],o),new A.c6(B.fj,p,n),n)},
 $S:96}
 A.ahh.prototype={
 $0(){var s=0,r=A.J(t.H),q=this
@@ -88691,8 +88691,8 @@ B.BA=new A.We()
 B.BB=new A.H3(0,"back")
 B.BC=new A.H3(1,"front")
 B.BG=new A.qR(null,null,null,null,null,null,null)
-B.Sv=new A.fB("No Data",null,null,null,null,null,null,null,null)
-B.BH=new A.ii(B.T,null,null,B.Sv,null)
+B.Su=new A.fB("No Data",null,null,null,null,null,null,null,null)
+B.BH=new A.ii(B.T,null,null,B.Su,null)
 B.W6=new A.ae7(0,"material")
 B.BN=new A.qU(null,null)
 B.BI=new A.ii(B.T,null,null,B.BN,null)
@@ -91053,10 +91053,10 @@ B.Sq=new A.e4(B.RY,B.PC,B.Qq,B.R5,B.Ri,B.P9,B.Q4,B.Pd,B.QT,B.Ru,B.Qw,B.Rv,B.RE,B
 B.hT=new A.u(!0,null,null,"QRegular",null,null,null,B.d7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Sr=new A.fB("Continue",null,B.hT,null,null,null,null,null,null)
 B.Ss=new A.fB("Generate Receipt",null,B.hT,null,null,null,null,null,null)
-B.Su=new A.fB("Save",null,B.hT,null,null,null,null,null,null)
 B.Q0=new A.u(!0,null,null,"QBold",null,null,null,B.d7,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Sw=new A.fB("Logout Confirmation",null,B.Q0,null,null,null,null,null,null)
-B.Sx=new A.fB("Stop scanning",null,null,null,null,null,null,null,null)
+B.Sv=new A.fB("Logout Confirmation",null,B.Q0,null,null,null,null,null,null)
+B.Sw=new A.fB("Stop scanning",null,null,null,null,null,null,null,null)
+B.Sx=new A.fB("Download Receipt",null,B.hT,null,null,null,null,null,null)
 B.zk=new A.fB("Close",null,B.hT,null,null,null,null,null,null)
 B.R_=new A.u(!0,null,null,"QRegular",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Sy=new A.fB("Are you sure you want to Logout?",null,B.R_,null,null,null,null,null,null)
