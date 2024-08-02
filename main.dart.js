@@ -92908,7 +92908,9 @@ DM(a){return this.a6z(a)},
 a6z(a){var s=0,r=B.J(t.H3),q,p=this,o,n,m,l,k,j,i
 var $async$DM=B.K(function(b,c){if(b===1)return B.G(c,r)
 while(true)switch(s){case 0:i=B.azq()
-for(o=i.c,n=0;m=a.length,n<m;n=l){l=n+50
+if(a.length===0){q=new Uint8Array(0)
+s=1
+break}for(o=i.c,n=0;m=a.length,n<m;n=l){l=n+50
 k=A.l.bH(a,n,l<m?l:m)
 j=new B.Nl(A.oe,A.DX,null,null,!1,null)
 j=new B.AW(j,new B.aoq(p,k,n))
